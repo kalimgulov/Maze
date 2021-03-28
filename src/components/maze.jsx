@@ -21,7 +21,7 @@ const [possibleStep, setpossibleStep] = useState([]);
         
         let i = Math.floor(Math.random() * Math.floor(9));
         setstartSquare(i);
-        checkPossibleStep(startSquare)
+        checkPossibleStep()
         console.log(possibleStep)
     }
  const checkPossibleStep = () => {

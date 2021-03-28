@@ -7,7 +7,7 @@ const Steps = (props) => {
 
 const renderDirectionCell = (num) => {
      let step = props.possibleStep;
-     let step = Math.floor(Math.random() * Math.floor(9));
+     step = Math.floor(Math.random() * Math.floor(4));
         return <span className='square' key={num}> {step} </span>
 }
 
